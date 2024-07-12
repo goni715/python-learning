@@ -63,3 +63,16 @@ p += 30
 
 print(p)
 #output p = p + 30 = 10 + 30 = 40
+
+
+
+
+#swapping
+
+c = 50
+d = 60
+
+c,d = d, c
+
+print(c) #output = 60
+print(d) #output = 50
