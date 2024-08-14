@@ -225,16 +225,85 @@ while i < len(actors):
 # Sort Descending
 # To sort descending, use the keyword argument reverse = True
 #
-fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
-fruits.sort(reverse = True)
-print(fruits)
+# fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
+# fruits.sort(reverse = True)
+# print(fruits)
 # output = ['pineapple', 'orange', 'mango', 'kiwi', 'banana']
 
 
 
 # Sort the number list descending:
-numbers = [100, 50, 65, 82, 23]
-numbers.sort(reverse = True)
-print(numbers)
+# numbers = [100, 50, 65, 82, 23]
+# numbers.sort(reverse = True)
+# print(numbers)
 # output = [100, 82, 65, 50, 23]
+
+
+
+
+# Python copy a list
+#
+# copy a list using copy() method
+# fruits = ["apple", "banana", "cherry"]
+# fruits2 = fruits.copy()
+# print(fruits2)
+# output = ['apple', 'banana', 'cherry']
+
+
+
+# copy a list using list() method
+# fruits = ["apple", "banana", "cherry"]
+# fruits2 = list(fruits)
+# print(fruits2)
+# output = ['apple', 'banana', 'cherry']
+
+
+# copy a list using slice (:) operator
+# fruits = ["apple", "banana", "cherry"]
+# fruits2 = fruits[:]
+# print(fruits2)
+# output = ['apple', 'banana', 'cherry']
+
+
+
+
+
+
+# Python - Join Lists
+#
+#
+# join two list using plus (+) operator
+#
+# list1 = ["a", "b", "c"]
+# list2 = [1, 2, 3]
+#
+# list3 = list1 + list2
+# print(list3)
+# output = ['a', 'b', 'c', 1, 2, 3]
+
+
+
+# join two list by appending all items of another list
+#
+# list1 = ["a", "b", "c"]
+# list2 = [1, 2, 3, 4]
+#
+# for x in list2:
+#   list1.append(x)
+#
+# print(list1)
+# output = ['a', 'b', 'c', 1, 2, 3, 4]
+
+
+
+
+# join two list using extend() method
+#
+list1 = ["a", "b", "c", "goni"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
+# output = ['a', 'b', 'c', 'goni', 1, 2, 3]
+
 
