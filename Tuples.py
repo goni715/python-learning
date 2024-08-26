@@ -154,9 +154,9 @@ mytuple = ("apple", "banana", "cherry")
 # Loop Through the Index Numbers
 # Use the range() and len() functions to create a suitable iterable.
 #
-thistuple = ("apple", "banana", "cherry")
-for i in range(len(thistuple)):
-  print(thistuple[i])
+# thistuple = ("apple", "banana", "cherry")
+# for i in range(len(thistuple)):
+#   print(thistuple[i])
 # output=
 # apple
 # banana
@@ -169,19 +169,44 @@ for i in range(len(thistuple)):
 # join two tuples
 #
 # using + operator:
-tuple1 = ("a", "b" , "c")
-tuple2 = (1, 2, 3)
-
-tuple3 = tuple1 + tuple2
-print(tuple3)
+# tuple1 = ("a", "b" , "c")
+# tuple2 = (1, 2, 3)
+#
+# tuple3 = tuple1 + tuple2
+# print(tuple3)
 # output = ('a', 'b', 'c', 1, 2, 3)
 
 
 
 # multiply tuple
-fruits = ("apple", "banana", "cherry")
-mytuple = fruits * 2
+# fruits = ("apple", "banana", "cherry")
+# mytuple = fruits * 2
 
-print(mytuple)
+# print(mytuple)
 # output = ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
+
+
+
+
+
+# tuple method
+#
+# tuple count() method:
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+
+counting = thistuple.count(5)
+print(counting)
+# output = 2
+
+# tuple index() method
+playersTuple = ('Taskin', 'Shakib', 'Nasir', 'Tamim', 'Musfiq')
+indexing = playersTuple.index('Nasir');
+print(indexing)
+# output = 2
+
+
+
+# Get length of a tuple
+print(len(playersTuple))
+# output =5
 
