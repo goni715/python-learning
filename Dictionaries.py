@@ -36,6 +36,20 @@
 # output = ['Osman Goni', 23, 'BSMRSTU', 'Saidpur']
 
 
+# items() method
+# The items() method will return each item in a dictionary, as tuples in a list.
+#
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+#
+# x = car.items()
+# print(x)
+# output = dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+
+
 
 # change dictionaries items
 #
@@ -122,3 +136,89 @@
 # thisdict.clear()
 # print(thisdict)
 # output = { }
+
+
+
+# loop in dictionaries
+#
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# get only keys
+# for x in thisdict:
+#   print(x)
+# output =
+# brand
+# model
+# year
+
+
+
+# Print all values in the dictionary, one by one:
+# for x in thisdict:
+#   print(thisdict[x])
+# Ford
+# Mustang
+# 1964
+
+
+
+
+# get only values
+# You can also use the values() method to return values of a dictionary:
+#
+# for x in thisdict.values():
+#   print(x)
+# output =
+# Ford
+# Mustang
+# 1964
+
+
+
+# get only keys
+# You can use the keys() method to return the keys of a dictionary:
+#
+# for x in thisdict.keys():
+#   print(x)
+# output =
+# brand
+# model
+# year
+
+
+
+# Loop through both keys and values, by using the items() method:
+# for x, y in thisdict.items():
+#   print(x, y)
+# output =
+# brand Ford
+# model Mustang
+# year 1964
+
+
+
+
+# copy dictionaries
+#
+# using copy() method
+#
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+# mydict = thisdict.copy()
+# print(mydict)
+# output = {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+
+
+
+# using dict() method
+#
+mydict = dict(thisdict)
+print(mydict)
+# output = {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
