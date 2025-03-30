@@ -81,3 +81,15 @@ if not m > n:
 #
 if n > m:
   pass
+
+
+# without indentation(will show error)
+# Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
+u = 33
+v = 200
+
+if v > u:
+    print("V is greater than U")
+# print("b is greater than a") //this is error(without whitespace at the beginning)
+
+
