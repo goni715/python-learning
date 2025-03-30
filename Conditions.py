@@ -114,3 +114,10 @@ else:
     print("y is not greater than x")
 
 
+# short-hand if
+if x > y: print("X is greater than y")
+
+# short-hand if-else
+print("A") if x > y else print("Y")
+
+
