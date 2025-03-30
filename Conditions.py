@@ -93,3 +93,11 @@ if v > u:
 # print("b is greater than a") //this is error(without whitespace at the beginning)
 
 
+# elif = else if
+x = 45
+y = 60
+
+if x > y:
+    print("X is greater than Y")
+elif x < y:
+    print("X is less than y")
