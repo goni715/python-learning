@@ -87,13 +87,14 @@ if n > m:
 # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
 u = 33
 v = 200
-
+""" 
 if v > u:
-    print("V is greater than U")
-# print("b is greater than a") //this is error(without whitespace at the beginning)
-
+#print("V is greater than U") #this is error(without whitespace at the beginning)
+ print("v is greater than u")
+"""
 
 # elif = else if
+"""
 x = 45
 y = 60
 
@@ -101,3 +102,15 @@ if x > y:
     print("X is greater than Y")
 elif x < y:
     print("X is less than y")
+"""
+
+
+# else condition
+x = 60
+y = 45
+if y > x:
+    print("y is greater than x")
+else:
+    print("y is not greater than x")
+
+
