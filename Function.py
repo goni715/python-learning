@@ -53,4 +53,12 @@ def arbitraryKeyword(**kid):
 # print(kid) //output = {'fname': 'Evan', 'lname': 'Ahmed'} == this is dictionary
   print("His last name is " + kid["lname"])
 
-arbitraryKeyword(fname = "Evan", lname = "Ahmed")
+arbitraryKeyword(fname = "Evan", lname = "Ahmed") #output = Ahmed
+
+
+# Default Parameter Value
+#
+def my_district(district= "Nilphamry"):
+    print(district)
+my_district() #ouput = Nilphamry
+my_district("Dhaka") #output=Dhaka
