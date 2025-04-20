@@ -43,3 +43,14 @@ def keywordFunction(child1, child3, child2):
     print("The youngest child is "+ child3)
 keywordFunction(child1= "Marjan Hossain", child2= "Abdur Rahman Bishwas", child3= "Evan Ahmed")
 
+
+
+# Arbitrary Keyword Arguments, **kwargs
+# If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.
+# This way the function will receive a dictionary of arguments, and can access the items accordingly:
+
+def arbitraryKeyword(**kid):
+# print(kid) //output = {'fname': 'Evan', 'lname': 'Ahmed'} == this is dictionary
+  print("His last name is " + kid["lname"])
+
+arbitraryKeyword(fname = "Evan", lname = "Ahmed")
